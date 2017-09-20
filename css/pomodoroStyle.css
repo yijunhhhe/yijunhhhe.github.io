@@ -1,0 +1,118 @@
+body{
+    background-color: #2A2C31;
+    color:#FFFEDF;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.center{
+    text-shadow: 0px 1px 1px #191919;
+    cursor:default;
+    width:450px;
+    margin: 0 auto;
+    display:block;
+    position:relative;
+}
+
+#title{
+    padding-top:10px;
+    width:100%;
+    font-weight:600;
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 15px;
+}
+
+#control{
+    width:350px;
+    padding-bottom: 15px;
+    display: table;
+    margin:auto;
+    position:relative;
+    text-align: center;
+}
+
+.description {
+	font-size: 15px;
+}
+
+.value{
+    font-size: 30px;
+}
+
+#session{
+    width:108px;
+    float:right;
+}
+
+#session .description{
+    color:#2ECC71;
+}
+
+#break{
+    width:100px;
+    float:left;
+}
+
+#break .description{
+    color:#e74c3c;
+}
+
+.operator{
+    font-size: 33px;
+    cursor: pointer;
+    
+}
+
+.operator:hover{
+    color:#95a5a6;
+}
+
+#next-pomodoro {
+	margin-left:30px;
+    float:left;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+#reset-pomodoro {
+	margin-right:30px;
+    float:right;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+#pomodoro {
+	cursor:pointer;
+    width:300px;
+    height:300px;
+    margin:auto;
+    clear:both;
+    border-radius: 50%;
+    border:3px #2ecc71 solid;
+    position:relative;
+    overflow:hidden;
+    text-shadow:none;
+}
+
+#pomodoro .time-left{
+    left:50%;
+    margin-left:-125px;
+    margin-top: 70px;
+    width:250px;
+    text-align:center;
+    font-size: 70px;
+    z-index:4;
+    position:absolute;  
+}
+
+#pomodoro .status{
+    bottom:35%;
+    left:50%;
+    margin-left:-125px;
+    width:250px;
+    text-align: center;
+    font-size: 15px;
+    z-index: 4;
+    position: absolute;
+}
