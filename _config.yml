@@ -1,17 +1,17 @@
 # Site settings
 title: Yijun He
-description: personal
-# baseurl: "" # the subpath of your site, e.g. /blog
+description: Yijun He
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Yijun He
 user_description: 
-user_title: Software Engineer
-email: yijunhhhe@gmail.com
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
+user_title: Software Developer
+email: yijunhe06@gmail.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
 
 # Google-analytics
 google-analytics:
